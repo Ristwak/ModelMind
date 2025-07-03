@@ -1429,7 +1429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1243193186
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: ",d ohfM;ks fL\xD8IV cuk,a tks crkrh gks fd ],vkbZ D;k gksrk gSA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f7405e973d49d6d4eb02d4f36149b9b8, type: 2}
   m_sharedMaterial: {fileID: -4743070830966308734, guid: f7405e973d49d6d4eb02d4f36149b9b8, type: 2}
@@ -1931,7 +1931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1770630640
 RectTransform:
   m_ObjectHideFlags: 0

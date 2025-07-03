@@ -1,0 +1,92 @@
+[
+  {
+    "question": "eq>s vius c‚l dks ,d çksQs'kuy bZesy Hkstuk gS ftlesa eSa rhu fnu dh Nqêh ekax ldwaA",
+    "promptOptions": [
+      ",d bZesy fyf[k, ftlesa c‚l ls rhu fnu dh Nqêh dh fourh gksA",
+      ",d çksQs'kuy bZesy rS;kj djsa ftlesa rhu fnu dh Nqêh ds fy, c‚l ls vuqjksèk gksA",
+      ",d v‚fQfl;y bZesy Mªk¶V djsa ftlesa eSa Nqêh ds fy, iwN ldwaA"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "eq>s ,vkbZ ls ,d ;wVîwc ohfM;ks fLØIV cuokuh gS tks ',vkbZ D;k gS' fo\"k; ij gksA",
+    "promptOptions": [
+      ",d ohfM;ks fLØIV cuk,a tks crkrh gks fd ],vkbZ D;k gksrk gSA",
+      ",vkbZ dh csfld tkudkjh nsus okyh ;wVîwc fLØIV cuk,aA",
+      "‘,vkbZ D;k gS* fo\"k; ij ,d ;wVîwc ohfM;ks dh fLØIV rS;kj djsa tks 'kq#vkrh yksxksa ds fy, gksA"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "eq>s viuk fjt+~;wes csgrj djus ds fy, ,vkbZ ls lq>ko ysus gSaA",
+    "promptOptions": [
+      "esjs fjt+~;wes dh leh{kk djsa vkSj lqèkkj ds fy, is'ksoj lq>ko nsaA",
+      "esjs fjt+~;wes dks ns[kdj crk,a fd mlesa D;k lqèkkj fd, tk ldrs gSaA",
+      "eq>s lq>ko nhft, ftlls esjk fjt+~;wes vkSj çHkkoh yxsA"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "मैं चाहता हूँ कि ,vkbZ मेरी एक छोटी बायोग्राफी प्रोफेशनल टोन में लिखे।",
+    "promptOptions": [
+      "एक संक्षिप्त बायोग्राफी बनाएं जो प्रोफेशनल लगे।",
+      "मेरे प्रोफेशनल प्रोफाइल के लिए एक बायोग्राफी लिखिए।",
+      "मेरे बारे में एक पेशेवर बायोग्राफी तैयार करें जिसे मैं अपने प्रोफ़ाइल में उपयोग कर सकूं।"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "मुझे टाइम मैनेजमेंट पर एक ब्लॉग पोस्ट चाहिए जिसमें व्यावहारिक सुझाव हों।",
+    "promptOptions": [
+      "टाइम मैनेजमेंट पर एक ब्लॉग पोस्ट लिखिए जिसमें उपयोगी टिप्स दिए गए हों।",
+      "एक लेख बनाएं जिसमें समय प्रबंधन से जुड़े आसान और उपयोगी सुझाव हों।",
+      "एक ब्लॉग पोस्ट तैयार करें जिसमें टाइम मैनेजमेंट के व्यावहारिक उपाय बताए गए हों।"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "मैं चाहता हूँ कि ,vkbZ एक सोशल मीडिया कैप्शन बनाए जो मोटिवेशनल लगे।",
+    "promptOptions": [
+      "एक प्रेरणादायक सोशल मीडिया कैप्शन तैयार करें जो ध्यान आकर्षित करे।",
+      "एक शॉर्ट कैप्शन लिखिए जो मोटिवेशनल लगे।",
+      "सोशल मीडिया के लिए एक कैप्शन लिखिए जिसमें मोटिवेशन हो।"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "मुझे एक ईमेल का उत्तर लिखवाना है जिसमें क्लाइंट ने कीमत पर आपत्ति जताई है।",
+    "promptOptions": [
+      "एक जवाब लिखिए जिसमें मूल्य को सही ठहराया गया हो।",
+      "एक ईमेल ड्राफ्ट करें जिसमें क्लाइंट की चिंता पर जवाब दिया गया हो।",
+      "एक प्रोफेशनल उत्तर तैयार करें जिसमें कीमत पर आपत्ति का विनम्र स्पष्टीकरण दिया गया हो।"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "मैं चाहता हूँ कि ,vkbZ मेरे लिए एक 5-दिन का हेल्दी डाइट प्लान बनाए।",
+    "promptOptions": [
+      "हेल्दी डाइट प्लान दें जो 5 दिनों के लिए उपयोगी हो।",
+      "एक डाइट चार्ट बनाएं जो 5 दिनों तक हेल्दी हो।",
+      "एक 5-दिन का हेल्दी डाइट प्लान तैयार करें जिसमें सुबह से रात तक के भोजन शामिल हों।"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "मुझे ,vkbZ से एक Python स्क्रिप्ट बनवानी है जो CSV फाइल पढ़ सके।",
+    "promptOptions": [
+      "Python में एक प्रोग्राम बनाएं जो फाइल को पढ़ता हो।",
+      "Python कोड लिखिए जो CSV डेटा दिखा सके।",
+      "एक Python स्क्रिप्ट तैयार करें जो CSV फाइल को पढ़े और उसका डेटा प्रिंट करे।"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "मैं चाहता हूँ कि ,vkbZ एक लघुकथा लिखे जो दोस्ती पर आधारित हो।",
+    "promptOptions": [
+      "ऐसी कहानी लिखिए जिसमें दोस्ती की भावना हो।",
+      "दोस्ती के विषय पर एक भावनात्मक लघुकथा लिखिए जो प्रेरणादायक हो।",
+      "एक लघुकथा बनाइए जिसमें दोस्ती को दर्शाया गया हो।"
+    ],
+    "correctIndex": 1
+  }
+]
