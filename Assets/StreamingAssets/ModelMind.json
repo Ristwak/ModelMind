@@ -1,92 +1,94 @@
-[
-  {
-    "question": "eq>s vius c‚l dks ,d çksQs'kuy bZesy Hkstuk gS ftlesa eSa rhu fnu dh Nqêh ekax ldwaA",
-    "promptOptions": [
-      ",d bZesy fyf[k, ftlesa c‚l ls rhu fnu dh Nqêh dh fourh gksA",
-      ",d çksQs'kuy bZesy rS;kj djsa ftlesa rhu fnu dh Nqêh ds fy, c‚l ls vuqjksèk gksA",
-      ",d v‚fQfl;y bZesy Mªk¶V djsa ftlesa eSa Nqêh ds fy, iwN ldwaA"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "question": "eq>s ,vkbZ ls ,d ;wVîwc ohfM;ks fLØIV cuokuh gS tks ',vkbZ D;k gS' fo\"k; ij gksA",
-    "promptOptions": [
-      ",d ohfM;ks fLØIV cuk,a tks crkrh gks fd ],vkbZ D;k gksrk gSA",
-      ",vkbZ dh csfld tkudkjh nsus okyh ;wVîwc fLØIV cuk,aA",
-      "‘,vkbZ D;k gS* fo\"k; ij ,d ;wVîwc ohfM;ks dh fLØIV rS;kj djsa tks 'kq#vkrh yksxksa ds fy, gksA"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "eq>s viuk fjt+~;wes csgrj djus ds fy, ,vkbZ ls lq>ko ysus gSaA",
-    "promptOptions": [
-      "esjs fjt+~;wes dh leh{kk djsa vkSj lqèkkj ds fy, is'ksoj lq>ko nsaA",
-      "esjs fjt+~;wes dks ns[kdj crk,a fd mlesa D;k lqèkkj fd, tk ldrs gSaA",
-      "eq>s lq>ko nhft, ftlls esjk fjt+~;wes vkSj çHkkoh yxsA"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "question": "मैं चाहता हूँ कि ,vkbZ मेरी एक छोटी बायोग्राफी प्रोफेशनल टोन में लिखे।",
-    "promptOptions": [
-      "एक संक्षिप्त बायोग्राफी बनाएं जो प्रोफेशनल लगे।",
-      "मेरे प्रोफेशनल प्रोफाइल के लिए एक बायोग्राफी लिखिए।",
-      "मेरे बारे में एक पेशेवर बायोग्राफी तैयार करें जिसे मैं अपने प्रोफ़ाइल में उपयोग कर सकूं।"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "मुझे टाइम मैनेजमेंट पर एक ब्लॉग पोस्ट चाहिए जिसमें व्यावहारिक सुझाव हों।",
-    "promptOptions": [
-      "टाइम मैनेजमेंट पर एक ब्लॉग पोस्ट लिखिए जिसमें उपयोगी टिप्स दिए गए हों।",
-      "एक लेख बनाएं जिसमें समय प्रबंधन से जुड़े आसान और उपयोगी सुझाव हों।",
-      "एक ब्लॉग पोस्ट तैयार करें जिसमें टाइम मैनेजमेंट के व्यावहारिक उपाय बताए गए हों।"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "मैं चाहता हूँ कि ,vkbZ एक सोशल मीडिया कैप्शन बनाए जो मोटिवेशनल लगे।",
-    "promptOptions": [
-      "एक प्रेरणादायक सोशल मीडिया कैप्शन तैयार करें जो ध्यान आकर्षित करे।",
-      "एक शॉर्ट कैप्शन लिखिए जो मोटिवेशनल लगे।",
-      "सोशल मीडिया के लिए एक कैप्शन लिखिए जिसमें मोटिवेशन हो।"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "question": "मुझे एक ईमेल का उत्तर लिखवाना है जिसमें क्लाइंट ने कीमत पर आपत्ति जताई है।",
-    "promptOptions": [
-      "एक जवाब लिखिए जिसमें मूल्य को सही ठहराया गया हो।",
-      "एक ईमेल ड्राफ्ट करें जिसमें क्लाइंट की चिंता पर जवाब दिया गया हो।",
-      "एक प्रोफेशनल उत्तर तैयार करें जिसमें कीमत पर आपत्ति का विनम्र स्पष्टीकरण दिया गया हो।"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "मैं चाहता हूँ कि ,vkbZ मेरे लिए एक 5-दिन का हेल्दी डाइट प्लान बनाए।",
-    "promptOptions": [
-      "हेल्दी डाइट प्लान दें जो 5 दिनों के लिए उपयोगी हो।",
-      "एक डाइट चार्ट बनाएं जो 5 दिनों तक हेल्दी हो।",
-      "एक 5-दिन का हेल्दी डाइट प्लान तैयार करें जिसमें सुबह से रात तक के भोजन शामिल हों।"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "मुझे ,vkbZ से एक Python स्क्रिप्ट बनवानी है जो CSV फाइल पढ़ सके।",
-    "promptOptions": [
-      "Python में एक प्रोग्राम बनाएं जो फाइल को पढ़ता हो।",
-      "Python कोड लिखिए जो CSV डेटा दिखा सके।",
-      "एक Python स्क्रिप्ट तैयार करें जो CSV फाइल को पढ़े और उसका डेटा प्रिंट करे।"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "question": "मैं चाहता हूँ कि ,vkbZ एक लघुकथा लिखे जो दोस्ती पर आधारित हो।",
-    "promptOptions": [
-      "ऐसी कहानी लिखिए जिसमें दोस्ती की भावना हो।",
-      "दोस्ती के विषय पर एक भावनात्मक लघुकथा लिखिए जो प्रेरणादायक हो।",
-      "एक लघुकथा बनाइए जिसमें दोस्ती को दर्शाया गया हो।"
-    ],
-    "correctIndex": 1
-  }
-]
+{
+  "questions": [
+    {
+      "question": "eq>s vius c‚l dks ,d çksQs'kuy bZesy Hkstuk gS ftlesa eSa rhu fnu dh Nqêh ekax ldwaA",
+      "promptOptions": [
+        ",d bZesy fyf[k, ftlesa c‚l ls rhu fnu dh Nqêh dh fourh gksA",
+        ",d çksQs'kuy bZesy rS;kj djsa ftlesa rhu fnu dh Nqêh ds fy, c‚l ls vuqjksèk gksA",
+        ",d v‚fQfl;y bZesy Mªk¶V djsa ftlesa eSa Nqêh ds fy, iwN ldwaA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "eq>s ,vkbZ ls ,d ;wVîwc ohfM;ks fLØIV cuokuh gS tks ',vkbZ D;k gS' fo\"k; ij gksA",
+      "promptOptions": [
+        ",d ohfM;ks fLØIV cuk,a tks crkrh gks fd ],vkbZ D;k gksrk gSA",
+        ",vkbZ dh csfld tkudkjh nsus okyh ;wVîwc fLØIV cuk,aA",
+        "‘,vkbZ D;k gS* fo\"k; ij ,d ;wVîwc ohfM;ks dh fLØIV rS;kj djsa tks 'kq#vkrh yksxksa ds fy, gksA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eq>s viuk fjt+~;wes csgrj djus ds fy, ,vkbZ ls lq>ko ysus gSaA",
+      "promptOptions": [
+        "esjs fjt+~;wes dh leh{kk djsa vkSj lqèkkj ds fy, is'ksoj lq>ko nsaA",
+        "esjs fjt+~;wes dks ns[kdj crk,a fd mlesa D;k lqèkkj fd, tk ldrs gSaA",
+        "eq>s lq>ko nhft, ftlls esjk fjt+~;wes vkSj çHkkoh yxsA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "eSa pkgrk gw¡ fd ]vkbZ esjh ,d NksVh ck;ksxzkQh çksQs'kuy Vksu esa fy[ksA",
+      "promptOptions": [
+        ",d laf{kIr ck;ksxzkQh cuk,a tks çksQs'kuy yxsA",
+        "esjs çksQs'kuy çksQkby ds fy, ,d ck;ksxzkQh fyf[k,A",
+        "esjs ckjs esa ,d is'ksoj ck;ksxzkQh rS;kj djsa ftls eSa vius çksQ+kby esa mi;ksx dj ldwaA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eq>s Vkbe eSustesaV ij ,d Cy‚x iksLV pkfg, ftlesa O;kogkfjd lq>ko gksaA",
+      "promptOptions": [
+        "Vkbe eSustesaV ij ,d Cy‚x iksLV fyf[k, ftlesa mi;ksxh fVIl fn, x, gksaA",
+        ",d ys[k cuk,a ftlesa le; çcaèku ls tqM+s vklku vkSj mi;ksxh lq>ko gksaA",
+        ",d Cy‚x iksLV rS;kj djsa ftlesa Vkbe eSustesaV ds O;kogkfjd mik; crk, x, gksaA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eSa pkgrk gw¡ fd ]vkbZ ,d lks'ky ehfM;k dSI'ku cuk, tks eksfVos'kuy yxsA",
+      "promptOptions": [
+        ",d çsj.kknk;d lks'ky ehfM;k dSI'ku rS;kj djsa tks è;ku vkdf\"kZr djsA",
+        ",d 'k‚VZ dSI'ku fyf[k, tks eksfVos'kuy yxsA",
+        "lks'ky ehfM;k ds fy, ,d dSI'ku fyf[k, ftlesa eksfVos'ku gksA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "eq>s ,d bZesy dk mÙkj fy[kokuk gS ftlesa DykbaV us dher ij vkifÙk trkbZ gSA",
+      "promptOptions": [
+        ",d tokc fyf[k, ftlesa ewY; dks lgh Bgjk;k x;k gksA",
+        ",d bZesy Mªk¶V djsa ftlesa DykbaV dh fpark ij tokc fn;k x;k gksA",
+        ",d çksQs'kuy mÙkj rS;kj djsa ftlesa dher ij vkifÙk dk fouez Li\"Vhdj.k fn;k x;k gksA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eSa pkgrk gw¡ fd ]vkbZ esjs fy, ,d 5&fnu dk gsYnh MkbV Iyku cuk,A",
+      "promptOptions": [
+        "gsYnh MkbV Iyku nsa tks 5 fnuksa ds fy, mi;ksxh gksA",
+        ",d MkbV pkVZ cuk,a tks 5 fnuksa rd gsYnh gksA",
+        ",d 5&fnu dk gsYnh MkbV Iyku rS;kj djsa ftlesa lqcg ls jkr rd ds Hkkstu 'kkfey gksaA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eq>s ,vkbZ ls ,d ik;Fku fLØIV cuokuh gS tks lh,loh Qkby i<+ ldsA",
+      "promptOptions": [
+        "ik;Fku esa ,d çksxzke cuk,a tks Qkby dks i<+rk gksA\"]",
+        "ik;Fku dksM fyf[k, tks lh,loh MsVk fn[kk ldsA\"]",
+        ",dik;Fku fLØIV rS;kj djsa tks lh,lohQkby dks i<+s vkSj mldk MsVk fçaV djsA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "eSa pkgrk gw¡ fd ,vkbZ ,d y?kqdFkk fy[ks tks nksLrh ij vkèkkfjr gksA",
+      "promptOptions": [
+        ",slh dgkuh fyf[k, ftlesa nksLrh dh Hkkouk gksA",
+        "nksLrh ds fo\"k; ij ,d HkkoukRed y?kqdFkk fyf[k, tks çsj.kknk;d gksA",
+        ",d y?kqdFkk cukb, ftlesa nksLrh dks n'kkZ;k x;k gksA"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
