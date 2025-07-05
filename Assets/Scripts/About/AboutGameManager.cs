@@ -19,31 +19,31 @@ public class AboutGameManager : MonoBehaviour
         }
 
         aboutText.text =
-            "<b>v‚fIVekbaM ds ckjs esa</b>\n" +
-            "v‚fIVekbaM ,d eYVh&flysDV jhtfuax pkSysat gS] ftls ,vkbZ] y‚ftd vkSj e'khu yfuZax dh vkidh voèkkj.kkRed le> dks rst djus ds fy, fMt+kbu fd;k x;k gSA\n\n" +
+            "<b>e‚MyekbaM ds ckjs esa</b>\n" +
+            "e‚MyekbaM ,d ,vkbZ@,e,y vkèkkfjr f'k{k.k xse gS] ftls fo|kfFkZ;ksa dks e'khu yfuZax vkSj vkfVZfQf'k;y baVsfytsal dh lksp vkSj rdZ dks le>kus ds fy, fMt+kbu fd;k x;k gSA\n\n" +
 
             "<b>;g xse D;k gS\\</b>\n" +
-            "gj Lrj ij vkidks tfVy] okLrfod&thou ls çsfjr ç'u feysaxs ftuds ,d ls vfèkd lgh mÙkj gks ldrs gSaA\n" +
-            "vkidk dke: lHkh oSèk mÙkjksa dk fo'ys\"k.k djuk] mUgsa igpkuuk vkSj pquuk — flQZ Li\"V ugha] cfYd lHkh mi;qä fodYiA\n\n" +
+            "bl xse esa vki ,d ,vkbZ bathfu;j dh Hkwfedk fuHkkrs gSaA vkidks MsVk dks lkQ+ djuk] lgh ,Yxksfjn~e pquuk] e‚My dks Vªsu djuk vkSj mldh Hkfo\";ok.kh dks ij[kuk gksrk gSA gj fu.kZ; vkids e‚My dh lVhdrk vkSj fu\"i{krk dks çHkkfor djrk gSA\n\n" +
 
-            "<b>A ;k B ls vkxs dh lksp</b>\n" +
-            "v‚fIVekbaM mu yksxksa dks iqjL—r djrk gS tks Li\"V lksp] iSVuZ dh igpku vkSj ,d lkFk dbZ laHkkoukvksa dks le>us dh {kerk j[krs gSaA\n" +
-            ";g ,e ,yh çdkj dh cgq&iFk fu.kZ; {kerk dks n'kkZrk gS ftldh t:jr ,vkbZ fMt+kbu vkSj ewY;kadu esa gksrh gSA\n\n" +
+            "<b>lksfp, tSls ,d e‚My lksprk gS</b>\n" +
+            "e‚MyekbaM mu y,Yxksfjnfed i{kikr ¼i{kikr½ vkSj mlds lekèkkuksxksa ds fy, gS tks dsoy ifj.kke ugha] cfYd e'khu dh lkspus dh çfØ;k dks Hkh le>uk pkgrs gSaA ;g xse fu.kZ; o`{k ¼fu.kZ; ds isM+½] U;wjy usVoDlZ] ck;l fMVsD'ku vkSj e‚My ,DlIyusfcfyVh tSls fo\"k;ksa dks baVj,sfDVo :i esa fl[kkrk gSA\n\n" +
 
-            "<b>vki D;k lh[ksaxs</b>\n" +
-            "• vLi\"V vkSj vewrZ leL;kvksa ls dSls fuiVsa\n" +
-            "• tgk¡ ikj,vkbZfjd y‚ftd vkSj laHkkO;kRed rdZ ,d&nwljs ls feyrs gSa\n" +
-            "• dsoy lcls vPNk ugha] cfYd lHkh lgh mÙkjksa dks pquus dh pqukSrh\n\n" +
+            "<b>vki D;k lh[ksaxs:</b>\n" +
+            "• MsVk Dyhfuax vkSj çh&çkslsflax dh rduhdsa\n" +
+            "• fofHkUu e'khu yfuZax ,Yxksfjn~e dk p;u vkSj rqyuk\n" +
+            "• e‚My ds çn'kZu dks ekius ds fy, ehfVªDl tSls 'kq)rk] ,Q1&vad\n" +
+            "• ,Yxksfjnfed i{kikr ¼i{kikr½ vkSj mlds lekèkku\n" +
+            "• fdlh Hkh fu.kZ; ds ihNs fNis rdZ dks le>uk ¼O;k[;kf;Ro½\n\n" +
 
-            "<b>,vkbZ@,e ,y Nk=ksa ds fy, fMt+kbu fd;k x;k</b>\n" +
-            ",vkbZ] ,e ,y vkSj d‚fXufVo lkbal ds Nk=ksa vkSj mRlkgh yksxksa ds fy, cuk;k x;k] v‚fIVekbaM vkidh enn djrk gS:\n" +
-            "• y‚ftdy QkmaMs'kUl dks etcwr cukuk\n" +
-            "• dbZ fodYiksa ds chp rdZ ykxw djuk\n" +
-            "• Q‚Yl i‚ftfVOl dh igpku djuk vkSj Hkzked fodYiksa dks gVkuk\n\n" +
+            "<b>fo'ks\"k :i ls ,vkbZ@,e,y Nk=ksa ds fy,</b>\n" +
+            "e‚MyekbaM fo'ks\"k :i ls iksLVxzstq,V Nk=ksa vkSj VsDuksy‚th ds çfr mRlkgh yksxksa ds fy, cuk;k x;k gS tks O;kogkfjd Kku ds lkFk xgjh le> çkIr djuk pkgrs gSa:\n" +
+            "• MsVk vkèkkfjr fu.kZ; ysuk\n" +
+            "• okLrfod thou dh leL;kvksa dks e‚My ds ekè;e ls gy djuk\n" +
+            "• lhfer lalkèkuksa esa çHkkoh e‚My cukuk\n\n" +
 
-            "<b>D;k vki vyx lkspus dks rS;kj gSa\\</b>\n" +
-            ";g vuqeku ugha] cfYd ncko esa xgjh le> gSA\n" +
-            "tkapsaA pqusaA fopkj djsaA\n\n" +
-            "<b>v‚fIVekbaM esa vkidk Lokxr gSA<\b>";
+            "<b>D;k vki rS;kj gSa e'khu dh rjg lkspus ds fy,\\</b>\n" +
+            ";g dsoy ,d xse ugha — ;g ,d vuqHko gS tks vkidh lksp] rdZ vkSj fu.kZ; ysus dh {kerk dks pqukSrh nsxkA\n" +
+            "lksfp,A cukb,A ijf[k,A\n\n" +
+            "<b>e‚MyekbaM esa vkidk Lokxr gS!</b>";
     }
 }

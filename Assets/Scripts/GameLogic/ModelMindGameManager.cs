@@ -27,6 +27,8 @@ public class ModelMindGameManager : MonoBehaviour
     private int score = 0;
     private float timer;
     private bool inputAllowed = true;
+    private Coroutine countdownCoroutine;
+
 
     private void Start()
     {
@@ -91,18 +93,52 @@ public class ModelMindGameManager : MonoBehaviour
 
         QAPair pair = _allPairs[currentQuestionIndex];
         questionText.text = pair.question;
+        questionText.transform.localScale = Vector3.one * 0.2f;
+        LeanTween.scale(questionText.gameObject, Vector3.one, 0.4f).setEaseOutBack();
 
         for (int i = 0; i < optionButtons.Length; i++)
         {
             optionTexts[i].text = pair.promptOptions[i];
-            int index = i;
             optionButtons[i].interactable = true;
+            optionButtons[i].image.color = Color.white; // reset button color
+
+            int index = i;
             optionButtons[i].onClick.RemoveAllListeners();
             optionButtons[i].onClick.AddListener(() => OnOptionSelected(index));
         }
 
-        StartCoroutine(CountdownAndSubmit());
+        if (countdownCoroutine != null) StopCoroutine(countdownCoroutine);
+        countdownCoroutine = StartCoroutine(CountdownAndSubmit());
+
     }
+
+    private void SubmitAnswer()
+    {
+        QAPair pair = _allPairs[currentQuestionIndex];
+
+        // Show feedback
+        if (selectedOption != -1)
+        {
+            for (int i = 0; i < optionButtons.Length; i++)
+            {
+                if (i == pair.correctIndex)
+                    optionButtons[i].image.color = Color.green;
+                else if (i == selectedOption && selectedOption != pair.correctIndex)
+                    optionButtons[i].image.color = Color.red;
+            }
+        }
+
+        if (selectedOption == pair.correctIndex)
+        {
+            score++;
+        }
+
+        scoreText.text = $"Ldksj {score}";
+        currentQuestionIndex++;
+
+        Invoke(nameof(SetupNextRound), 1.5f);
+    }
+
 
     private void OnOptionSelected(int index)
     {
@@ -113,6 +149,14 @@ public class ModelMindGameManager : MonoBehaviour
 
         foreach (var btn in optionButtons)
             btn.interactable = false;
+
+        if (countdownCoroutine != null)
+        {
+            StopCoroutine(countdownCoroutine);
+            countdownCoroutine = null;
+        }
+
+        SubmitAnswer(); // Immediately submit
     }
 
     private IEnumerator CountdownAndSubmit()
@@ -127,20 +171,20 @@ public class ModelMindGameManager : MonoBehaviour
         SubmitAnswer();
     }
 
-    private void SubmitAnswer()
-    {
-        QAPair pair = _allPairs[currentQuestionIndex];
+    // private void SubmitAnswer()
+    // {
+    //     QAPair pair = _allPairs[currentQuestionIndex];
 
-        if (selectedOption == pair.correctIndex)
-        {
-            score++;
-        }
+    //     if (selectedOption == pair.correctIndex)
+    //     {
+    //         score++;
+    //     }
 
-        scoreText.text = $"Ldksj {score}";
-        currentQuestionIndex++;
+    //     scoreText.text = $"Ldksj {score}";
+    //     currentQuestionIndex++;
 
-        Invoke(nameof(SetupNextRound), 1.5f);
-    }
+    //     Invoke(nameof(SetupNextRound), 1.5f);
+    // }
 
     private void EndGame()
     {
