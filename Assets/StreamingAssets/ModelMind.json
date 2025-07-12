@@ -10,11 +10,11 @@
       "correctIndex": 1
     },
     {
-      "question": "eq>s ,vkbZ ls ,d ;wVîwc ohfM;ks fLØIV cuokuh gS tks ',vkbZ D;k gS' fo\"k; ij gksA",
+      "question": "eq>s ,vkbZ ls ,d ;wVîwc ohfM;ks fLØIV cuokuh gS tks ,vkbZ D;k gS lanHkZ ij gksA",
       "promptOptions": [
         ",d ohfM;ks fLØIV cuk,a tks crkrh gks fd ],vkbZ D;k gksrk gSA",
         ",vkbZ dh csfld tkudkjh nsus okyh ;wVîwc fLØIV cuk,aA",
-        "‘,vkbZ D;k gS* fo\"k; ij ,d ;wVîwc ohfM;ks dh fLØIV rS;kj djsa tks 'kq#vkrh yksxksa ds fy, gksA"
+        ",vkbZ D;k gS* lanHkZ ij ,d ;wVîwc ohfM;ks dh fLØIV rS;kj djsa tks 'kq#vkrh yksxksa ds fy, gksA"
       ],
       "correctIndex": 2
     },
@@ -28,7 +28,7 @@
       "correctIndex": 0
     },
     {
-      "question": "eSa pkgrk gw¡ fd ]vkbZ esjh ,d NksVh ck;ksxzkQh çksQs'kuy Vksu esa fy[ksA",
+      "question": "eSa pkgrk gw¡ fd ,vkbZ esjh ,d NksVh ck;ksxzkQh çksQs'kuy Vksu esa fy[ksA",
       "promptOptions": [
         ",d laf{kIr ck;ksxzkQh cuk,a tks çksQs'kuy yxsA",
         "esjs çksQs'kuy çksQkby ds fy, ,d ck;ksxzkQh fyf[k,A",
@@ -46,9 +46,9 @@
       "correctIndex": 2
     },
     {
-      "question": "eSa pkgrk gw¡ fd ]vkbZ ,d lks'ky ehfM;k dSI'ku cuk, tks eksfVos'kuy yxsA",
+      "question": "eSa pkgrk gw¡ fd ,vkbZ ,d lks'ky ehfM;k dSI'ku cuk, tks eksfVos'kuy yxsA",
       "promptOptions": [
-        ",d çsj.kknk;d lks'ky ehfM;k dSI'ku rS;kj djsa tks è;ku vkdf\"kZr djsA",
+        ",d çsj.kknk;d lks'ky ehfM;k dSI'ku rS;kj djsa tks è;ku eksgd djsA",
         ",d 'k‚VZ dSI'ku fyf[k, tks eksfVos'kuy yxsA",
         "lks'ky ehfM;k ds fy, ,d dSI'ku fyf[k, ftlesa eksfVos'ku gksA"
       ],
@@ -59,12 +59,12 @@
       "promptOptions": [
         ",d tokc fyf[k, ftlesa ewY; dks lgh Bgjk;k x;k gksA",
         ",d bZesy Mªk¶V djsa ftlesa DykbaV dh fpark ij tokc fn;k x;k gksA",
-        ",d çksQs'kuy mÙkj rS;kj djsa ftlesa dher ij vkifÙk dk fouez Li\"Vhdj.k fn;k x;k gksA"
+        ",d çksQs'kuy mÙkj rS;kj djsa ftlesa dher ij vkifÙk dk fouez O;k[;k fn;k x;k gksA"
       ],
       "correctIndex": 2
     },
     {
-      "question": "eSa pkgrk gw¡ fd ]vkbZ esjs fy, ,d 5&fnu dk gsYnh MkbV Iyku cuk,A",
+      "question": "eSa pkgrk gw¡ fd ,vkbZ esjs fy, ,d 5&fnu dk gsYnh MkbV Iyku cuk,A",
       "promptOptions": [
         "gsYnh MkbV Iyku nsa tks 5 fnuksa ds fy, mi;ksxh gksA",
         ",d MkbV pkVZ cuk,a tks 5 fnuksa rd gsYnh gksA",
@@ -75,9 +75,9 @@
     {
       "question": "eq>s ,vkbZ ls ,d ik;Fku fLØIV cuokuh gS tks lh,loh Qkby i<+ ldsA",
       "promptOptions": [
-        "ik;Fku esa ,d çksxzke cuk,a tks Qkby dks i<+rk gksA\"]",
-        "ik;Fku dksM fyf[k, tks lh,loh MsVk fn[kk ldsA\"]",
-        ",dik;Fku fLØIV rS;kj djsa tks lh,lohQkby dks i<+s vkSj mldk MsVk fçaV djsA"
+        "ik;Fku esa ,d çksxzke cuk,a tks Qkby dks i<+rk gksA",
+        "ik;Fku dksM fyf[k, tks lh,loh MsVk fn[kk ldsA",
+        ",dik;Fku fLØIV rS;kj djsa tks lh,loh Qkby dks i<+s vkSj mldk MsVk fçaV djsA"
       ],
       "correctIndex": 2
     },
@@ -85,7 +85,7 @@
       "question": "eSa pkgrk gw¡ fd ,vkbZ ,d y?kqdFkk fy[ks tks nksLrh ij vkèkkfjr gksA",
       "promptOptions": [
         ",slh dgkuh fyf[k, ftlesa nksLrh dh Hkkouk gksA",
-        "nksLrh ds fo\"k; ij ,d HkkoukRed y?kqdFkk fyf[k, tks çsj.kknk;d gksA",
+        "nksLrh ds çlax ij ,d HkkoukRed y?kqdFkk fyf[k, tks çsj.kknk;d gksA",
         ",d y?kqdFkk cukb, ftlesa nksLrh dks n'kkZ;k x;k gksA"
       ],
       "correctIndex": 1

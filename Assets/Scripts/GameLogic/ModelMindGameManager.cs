@@ -133,7 +133,7 @@ public class ModelMindGameManager : MonoBehaviour
             score++;
         }
 
-        scoreText.text = $"Ldksj {score}";
+        scoreText.text = $"vad {score}";
         currentQuestionIndex++;
 
         Invoke(nameof(SetupNextRound), 1.5f);
@@ -171,26 +171,13 @@ public class ModelMindGameManager : MonoBehaviour
         SubmitAnswer();
     }
 
-    // private void SubmitAnswer()
-    // {
-    //     QAPair pair = _allPairs[currentQuestionIndex];
-
-    //     if (selectedOption == pair.correctIndex)
-    //     {
-    //         score++;
-    //     }
-
-    //     scoreText.text = $"Ldksj {score}";
-    //     currentQuestionIndex++;
-
-    //     Invoke(nameof(SetupNextRound), 1.5f);
-    // }
-
     private void EndGame()
     {
-        questionText.text = "[ksy lekIr!";
-        timerText.text = "";
-        foreach (var btn in optionButtons)
-            btn.gameObject.SetActive(false);
+        // questionText.text = "[ksy lekIr!";
+        // timerText.text = "";
+        // foreach (var btn in optionButtons)
+        //     btn.gameObject.SetActive(false);
+
+        comingSoonPanel.SetActive(true);
     }
 }
